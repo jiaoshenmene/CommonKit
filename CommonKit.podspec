@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.source_files = 'CommonKit_a/*'  
+  s.source_files = 'CommonKit_a/*.{h,m}'  , "$(PODS_ROOT)/**/*.h"
   # s.resources = 'Assets'  
   
   # s.ios.exclude_files = 'Classes/osx'  
   # s.osx.exclude_files = 'Classes/ios'  
-  # s.public_header_files = 'Classes/**/*.h'  
+  s.public_header_files = 'CommitKit_aa/*.{h,m}' , "$(PODS_ROOT)/**/*.h"
   s.frameworks = 'UIKit' 
-  #s.dependency 'JSPatch'
+  s.dependency 'AFNetworking'
 end  

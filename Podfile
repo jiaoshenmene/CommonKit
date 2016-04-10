@@ -1,6 +1,6 @@
-source 'https://github.com/jiaoshenmene/Specs12.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, ‘8.0’
 
 
-pod 'CommonKit'
+pod 'AFNetworking'
