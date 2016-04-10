@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   # s.ios.exclude_files = 'Classes/osx'  
   # s.osx.exclude_files = 'Classes/ios'  
-  s.public_header_files = 'CommitKit_aa/*.{h,m}' , "$(PODS_ROOT)/**/*.h"
+  s.public_header_files = 'CommitKit_a/*.h' , "$(PODS_ROOT)/**/*.h"
   s.frameworks = 'UIKit' 
   #s.dependency 'AFNetworking'
 end  
