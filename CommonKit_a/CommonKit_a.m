@@ -7,6 +7,7 @@
 //
 
 #import "CommonKit_a.h"
+#import "MyTest.h"
 
 @implementation CommonKit_a
 
